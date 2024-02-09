@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>Лексикон</title>
@@ -23,13 +24,15 @@
   </style>
 </head>
 <body>
+  <h1>Добър ден!</h1>
 
+  <button onclick="startInvitation()">Започни</button>
 
   <script>
     function startInvitation() {
       document.body.innerHTML = `
         <h1>Здравей</h1>
-        <p>Като 1 доста изобретателен човек, реших да ти задам няколко въпроса, въпроса е дали ще можеш да стигнеш до края на малкият тест?</p>
+        <p>Като 1 доста изобретателен човек, реших да ти задам няколко въпроса, дали ще можеш да стигнеш до края на малкият тест?</p>
         <button onclick="question1()">Започни</button>
       `;
     }
