@@ -59,7 +59,7 @@
 
       document.body.innerHTML = `
         <h1>Въпрос 3</h1>
-        <p>Готова ли сте, <strong>Нермин</strong> за  ${indentationStyle} (Моля направете снимка от тази страница)</p>
+        <p>Готова ли сте, <strong>усмивке</strong> за  ${indentationStyle} (Моля направете снимка от тази страница)</p>
         <button onclick="showResult(true)">Продължи</button>
     
       `;
