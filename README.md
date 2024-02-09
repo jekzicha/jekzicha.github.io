@@ -23,9 +23,7 @@
   </style>
 </head>
 <body>
-  <h1>Добър ден!</h1>
 
-  <button onclick="startInvitation()">Започни</button>
 
   <script>
     function startInvitation() {
