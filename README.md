@@ -48,7 +48,7 @@
     function question2(indentationStyle) {
       document.body.innerHTML = `
         <h1>Въпрос 2</h1>
-        <p>Знаеш ли, според подателя на този въпросник (Камен) кой има най-хубавата усмивка?👀 (Попълни с име)</p>
+        <p>На кого подателя на този въпросник (Камен) е дал прякора усмивке?👀 (Попълни с име)</p>
         <input type="text" id="programmingLanguage">
         <button onclick="question3('${indentationStyle}')">Продължи</button>
       `;
