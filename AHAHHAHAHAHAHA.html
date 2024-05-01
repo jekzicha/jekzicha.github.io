@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 <head>
   <title>Лексикон</title>
@@ -32,7 +32,7 @@
     function startInvitation() {
       document.body.innerHTML = `
         <h1>Здравей</h1>
-        <p>Като 1 умен и забавен човек, реших да ти задам няколко въпроса, въпроса е дали ще можеш да стигнеш до края на малкият тест?</p>
+        <p>Като 1 умен и забавен човек, реших да ти задам няколко въпроса, въпроса е дали ще можеш да стигнеш до края на малкият тест? Моля изпрати екранна снимка от всеки 1 отговор</p>
         <button onclick="question1()">Започни</button>
       `;
     }
@@ -42,14 +42,14 @@
         <h1>Въпрос 1</h1>
         <p>Какво харесвате повече? </p>
         <button onclick="question2('Разходка в парка')">Разходка в парка</button>
-        <button onclick="question2('Разговор на пейка')">Разговор на пейка</button>
+        <button onclick="question2('Разговор на пейка')">Разговор на пейка с готин човечец</button>
       `;
     }
 
     function question2(indentationStyle) {
       document.body.innerHTML = `
         <h1>Question 2</h1>
-        <p>На кого подателя на този въпросник (Камен) е дал прякора усмивке?👀 (Попълни с име)</p>
+        <p>Коя е най-красивата принцеска? 👀 (Попълни с име)</p>
         <input type="text" id="programmingLanguage">
         <button onclick="question3('${indentationStyle}')">Продължи</button>
       `;
@@ -60,7 +60,7 @@
 
       document.body.innerHTML = `
         <h1>Question 3</h1>
-        <p>Готова ли сте, <strong>усмивке</strong>  ${indentationStyle} (Моля направете снимка от тази страница)</p>
+        <p>Готова ли си, <strong>Диди</strong></p>
         <button onclick="showResult(true)">Продължи</button>
     
       `;
