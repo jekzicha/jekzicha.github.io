@@ -48,7 +48,7 @@
 
     function question2(indentationStyle) {
       document.body.innerHTML = `
-        <h1>Question 2</h1>
+        <h1>Въпрос 2</h1>
         <p>Коя е най-красивата принцеска според Камен 👀 (Попълни с име)</p>
         <input type="text" id="programmingLanguage">
         <button onclick="question3('${indentationStyle}')">Продължи</button>
@@ -59,7 +59,7 @@
       const programmingLanguage = document.getElementById('programmingLanguage').value;
 
       document.body.innerHTML = `
-        <h1>Question 3</h1>
+        <h1>Въпрос 3</h1>
         <p>Готова ли си, за последната част от анкетата? Моля информирай ме, след като попълниш лексикона!
         <button onclick="showResult(true)">Продължи</button>
     
