@@ -40,9 +40,9 @@
     function question1() {
       document.body.innerHTML = `
         <h1>Въпрос 1</h1>
-        <p>Какво харесваш повече? </p>
+        <p>Какво предпочиташ повече? </p>
         <button onclick="question2('Разходка')">Разходка с Ками</button>
-        <button onclick="question2('Разговор')">Разговор с Ками </button>
+        <button onclick="question2('Разговор')">Да не можеш да спреш да се усмихваш? </button>
       `;
     }
 
