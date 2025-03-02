@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Съдбата си знае работата...</title>
+    <title>Покана за Петък</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,17 +24,22 @@
             border: 2px solid #ddd;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fafafa;
         }
         h1 {
-            margin-bottom: 5px;
+            font-size: 24px;
+            margin-bottom: 10px;
         }
-        h2 {
+        p {
             font-size: 18px;
-            font-weight: normal;
-            color: #666;
-            margin-top: 0;
+            line-height: 1.6;
         }
-        .next-button {
+        .signature {
+            margin-top: 20px;
+            font-style: italic;
+            font-size: 18px;
+        }
+        .back-button {
             position: absolute;
             bottom: 20px;
             left: 20px;
@@ -45,7 +50,7 @@
             border-radius: 5px;
             font-size: 16px;
         }
-        .next-button:hover {
+        .back-button:hover {
             background-color: #555;
         }
     </style>
@@ -53,15 +58,14 @@
 <body>
     <div class="container">
         <h1>До очарователната госпожица</h1>
-        
-        <p>С удоволствие бих искал да Ви отправя покана за едно приятно споделено време този петък, а интуицията ми подсказва, че този петък крие потенциал за нещо специално. Ако идеята Ви се струва привлекателна, ще се радвам да уточним детайлите според Вашето удобство.
-
-С уважение и нетърпение
-Камен</p>
+        <p>С удоволствие бих искал да Ви отправя покана за едно приятно споделено време този петък.  
+          Интуицията ми подсказва, че този петък крие потенциал за нещо специално.</p>
+        <p>Ако идеята Ви се струва привлекателна, ще се радвам да уточним детайлите според Вашето удобство.</p>
+        <p class="signature">С уважение и нетърпение,<br><strong>Камен</strong></p>
     </div>
 
     <!-- Бутон за връщане назад -->
-    <a href="index.html" class="next-button">← Обратно</a>
+    <a href="index.html" class="back-button">← Обратно</a>
 
 </body>
 </html>
